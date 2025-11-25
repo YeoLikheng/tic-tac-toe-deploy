@@ -5,7 +5,7 @@
   "homepage": "https://YeoLikheng.github.io/tic-tac-toe-deploy",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html --public-url /tic-tac-toe-deploy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
